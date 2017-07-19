@@ -395,7 +395,7 @@ for stormID = 1:length(date_range)
         %combine images
         combined = [ann;dbz;sw;dv];
         %save the combined image to the storms directory
-        imwrite(combined, ['storms/ stormData(stormID).graphstr '.' ext]);  
+        imwrite(combined, ['storms/' stormData(stormID).graphstr '.' ext]);  
         delete([stormData(stormID).graphstr '_annota.' ext], ...
             [stormData(stormID).graphstr '_reflec.' ext], ...
             [stormData(stormID).graphstr '_doppler.' ext], ...
@@ -404,7 +404,7 @@ for stormID = 1:length(date_range)
         %combine images
         combined = [ann;dbz;dv];
         %save the combined image to the storms directory
-        imwrite(combined, ['storms/ stormData(stormID).graphstr '.' ext]); 
+        imwrite(combined, ['storms/' stormData(stormID).graphstr '.' ext]); 
         delete([stormData(stormID).graphstr '_annota.' ext], ...
             [stormData(stormID).graphstr '_reflec.' ext], ...
             [stormData(stormID).graphstr '_doppler.' ext])
