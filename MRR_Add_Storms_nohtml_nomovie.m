@@ -4,8 +4,7 @@ function MRR_Add_Storms_nohtml_nomovie( MRR_struct, date_range, settings )
 %   SUMMARY: This function plots MRR data with MASC data overlaid. 
 %
 %   INPUTS:
-%       MRR_struct: The MRR structure obtained from running one of the
-%                   simp2matrix functions on MRR simp data.
+%       MRR_struct: The MRR structure 
 %       date_range: Includes serial dates of the beginning and end of
 %                   storms, as well as the row locations in the MRR_struct
 %                   of the beginning and end of storms. 
